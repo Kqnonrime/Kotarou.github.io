@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="Radar Antenna Techniques天线（antenna）这个名字源于意大利发明家伽利尔摩·马可尼（Guglielmo Marconi）的工作。在他进行电磁波实验时，他使用了一根木质帐篷杆，上面装有辐射线。这个帐篷杆在意大利语中的意思是l’antenna。在描述马可尼的实验时，这个术语的普遍使用导致了发射机站点的这个组成部分的流行名称“天线”。 天线发射或接收电磁波，是一种将电磁波转换">
@@ -147,17 +147,17 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">1</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">3</span></a>
 
   </li>
         <li class="menu-item menu-item-schedule">
@@ -328,7 +328,7 @@
 <li><p>旁瓣比（side lobe ratio），即远离主波束的旁瓣的最大值。（在图中，副瓣的值，例如+6度：20dB）。</p>
 </li>
 </ul>
-<h4 id="Beam-Width"><a href="#Beam-Width" class="headerlink" title="Beam Width"></a>Beam Width</h4><p>仍发射至少一半最大功率的天线方向图的角范围称为“波束”（beam with）。因此，该主瓣的边界点是室内场强相对于最大场强下降约3 dB的点。然后，该角度被描述为波束宽度（beam width），孔径角（aperture angle）或半功率（-3 dB）角，并带有符号$\Theta$（也称为$\varphi$）。波束宽度$\Theta$正好是图中两个黑色标记功率电平之间的角度。角度$\Theta$可以在水平面（用符号$\Theta<em>{AZ}$）和垂直面（用标记$\Theta</em>{EL}$）中确定。</p>
+<h4 id="Beam-Width"><a href="#Beam-Width" class="headerlink" title="Beam Width"></a>Beam Width</h4><p>仍发射至少一半最大功率的天线方向图的角范围称为“波束”（beam with）。因此，该主瓣的边界点是室内场强相对于最大场强下降约3 dB的点。然后，该角度被描述为波束宽度（beam width），孔径角（aperture angle）或半功率（-3 dB）角，并带有符号$\Theta$（也称为$\varphi$）。波束宽度$\Theta$正好是图中两个黑色标记功率电平之间的角度。角度$\Theta$可以在水平面（用符号$\Theta_{AZ}$）和垂直面（用标记$\Theta_{EL}$）中确定。</p>
 <h4 id="Aperture"><a href="#Aperture" class="headerlink" title="Aperture"></a>Aperture</h4><p>各向同性辐射器在球体表面分散所有能量。功率在给定距离内具有规定的密度。定向天线将能量集中在较小的区域，功率密度高于各向同性散热器。密度也可以表示为单位面积的功率。接收到的功率与相关面积成比例，该区域称为有效孔径（effective aperture）。</p>
 <p>天线的有效孔径$A_e$是辐射或接收信号的面积，是控制天线性能的关键参数，天线增益与有效面积的关系如下：</p>
 <script type="math/tex; mode=display">
@@ -451,7 +451,10 @@ G≈\frac{160^2}{\Theta_{AZ} \cdot \Theta_{El}}</script><p>$\Theta_{AZ}$ = beamw
     <a href="/2022/09/27/hello-world/" rel="prev" title="Hello World">
       <i class="fa fa-chevron-left"></i> Hello World
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2022/10/06/classification/" rel="next" title="Radar System Classification">
+      Radar System Classification <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -526,7 +529,7 @@ G≈\frac{160^2}{\Theta_{AZ} \cdot \Theta_{El}}</script><p>$\Theta_{AZ}$ = beamw
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -539,11 +542,14 @@ G≈\frac{160^2}{\Theta_{AZ} \cdot \Theta_{El}}</script><p>$\Theta_{AZ}$ = beamw
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
 
 
 
@@ -572,12 +578,12 @@ G≈\frac{160^2}{\Theta_{AZ} \cdot \Theta_{El}}</script><p>$\Theta_{AZ}$ = beamw
   </span>
   <span class="author" itemprop="copyrightHolder">Kqnonrime</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共5.4k字</span>
+  <span class="post-count">博客全站共8k字</span>
 </div>
         
 <div class="busuanzi-count">
@@ -614,7 +620,7 @@ G≈\frac{160^2}{\Theta_{AZ} \cdot \Theta_{El}}</script><p>$\Theta_{AZ}$ = beamw
 
   
   
-  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='150' src="/lib/canvas-nest/canvas-nest.min.js"></script>
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
@@ -624,7 +630,7 @@ G≈\frac{160^2}{\Theta_{AZ} \cdot \Theta_{El}}</script><p>$\Theta_{AZ}$ = beamw
 <script src="/js/motion.js"></script>
 
 
-<script src="/js/schemes/pisces.js"></script>
+<script src="/js/schemes/muse.js"></script>
 
 
 <script src="/js/next-boot.js"></script>
@@ -661,6 +667,7 @@ G≈\frac{160^2}{\Theta_{AZ} \cdot \Theta_{El}}</script><p>$\Theta_{AZ}$ = beamw
   if (typeof MathJax === 'undefined') {
     window.MathJax = {
       loader: {
+          load: ['[tex]/mhchem'],
         source: {
           '[tex]/amsCd': '[tex]/amscd',
           '[tex]/AMScd': '[tex]/amscd'
@@ -668,6 +675,7 @@ G≈\frac{160^2}{\Theta_{AZ} \cdot \Theta_{El}}</script><p>$\Theta_{AZ}$ = beamw
       },
       tex: {
         inlineMath: {'[+]': [['$', '$']]},
+          packages: {'[+]': ['mhchem']},
         tags: 'ams'
       },
       options: {
